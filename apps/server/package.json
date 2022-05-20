@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "rm -rf dist && yarn build && nodemon ./dist/src/index.js",
     "build": "tsc",
+    "lint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
