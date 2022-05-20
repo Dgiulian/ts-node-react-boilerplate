@@ -1,6 +1,13 @@
-# Turborepo starter
+# Node and React Typescript boilerplate
 
-This is an official Yarn v1 starter turborepo.
+This project aims at integrating Node and React using Typescript and Turborepo.
+
+## Usage 
+To download and use this boilerplate, you should use `degit`:
+
+```bash
+ npx degit https://github.com/dgiulian/ts-node-react-boilerplate my-app
+```
 
 ## What's inside?
 
