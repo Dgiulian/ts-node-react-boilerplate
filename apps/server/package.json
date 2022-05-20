@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rm -rf dist && yarn build && nodemon ./dist/src/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "eslint": "^8.15.0",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.6.4"
+  }
+}
